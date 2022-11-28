@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<StackLayout xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="mobemboTestmobile.Controls.FlyoutHeaderControl">
+    <!--<StackLayout Orientation="Horizontal" Spacing="10">
+        <Label x:Name="lblUserName"  FontSize="28" FontAttributes="Bold" />
+        <Label VerticalTextAlignment="Center" FontAttributes="Bold" x:Name="lblUserRole" FontSize="16" />
+    </StackLayout>
+    <Label x:Name="lblUserEmail" FontSize="18" />
+
+     <Grid ColumnSpacing="10" RowDefinitions="7,Auto,7,1" ColumnDefinitions="35,*">
+                <Image Grid.Row="1" Grid.Column="0" Source="{Binding FlyoutIcon}" HeightRequest="30"/>
+                <Label Grid.Row="1" Grid.Column="1" VerticalTextAlignment="Center"
+                       Text="{Binding Title}" FontAttributes="Bold"/>
+                <BoxView Grid.Column="0"
+                         Color="LightGray"
+                         Grid.Row="3" Grid.ColumnSpan="2"/>
+            </Grid>-->
+    <Grid RowDefinitions="Auto">
+       
+    <Image Grid.Row="0" Source="logo.png"
+          HeightRequest="142"
+          VerticalOptions="Center"
+          WidthRequest="230"
+          HorizontalOptions="Center" />
+
+      <StackLayout Grid.Row="1" Orientation="Horizontal" Spacing="10">
+        <Label x:Name="lblUserName"  FontSize="28" FontAttributes="Bold" />
+        <Label VerticalTextAlignment="Center" FontAttributes="Bold" x:Name="lblUserRole" FontSize="16" />
+    </StackLayout>
+    <Label Grid.Row="2" x:Name="lblUserEmail" FontSize="18" />
+    </Grid>
+</StackLayout>

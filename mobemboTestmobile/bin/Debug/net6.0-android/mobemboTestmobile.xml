@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>mobemboTestmobile</name>
+    </assembly>
+    <members>
+        <member name="P:mobemboTestmobile.ViewModels.AppShellViewModel.IsText">
+            <inheritdoc cref="F:mobemboTestmobile.ViewModels.AppShellViewModel.isText"/>
+        </member>
+        <member name="F:mobemboTestmobile.ViewModels.AppShellViewModel.signOutCommand">
+            <summary>The backing field for <see cref="P:mobemboTestmobile.ViewModels.AppShellViewModel.SignOutCommand"/>.</summary>
+        </member>
+        <member name="P:mobemboTestmobile.ViewModels.AppShellViewModel.SignOutCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:mobemboTestmobile.ViewModels.AppShellViewModel.SignOut"/>.</summary>
+        </member>
+        <member name="P:mobemboTestmobile.ViewModels.Base.BaseViewModel.IsBusy">
+            <inheritdoc cref="F:mobemboTestmobile.ViewModels.Base.BaseViewModel.isBusy"/>
+        </member>
+        <member name="P:mobemboTestmobile.ViewModels.Base.BaseViewModel.Title">
+            <inheritdoc cref="F:mobemboTestmobile.ViewModels.Base.BaseViewModel.title"/>
+        </member>
+        <member name="P:mobemboTestmobile.ViewModels.LoginPageViewModel.Email">
+            <inheritdoc cref="F:mobemboTestmobile.ViewModels.LoginPageViewModel._email"/>
+        </member>
+        <member name="P:mobemboTestmobile.ViewModels.LoginPageViewModel.Password">
+            <inheritdoc cref="F:mobemboTestmobile.ViewModels.LoginPageViewModel._password"/>
+        </member>
+        <member name="F:mobemboTestmobile.ViewModels.LoginPageViewModel.loginCommand">
+            <summary>The backing field for <see cref="P:mobemboTestmobile.ViewModels.LoginPageViewModel.LoginCommand"/>.</summary>
+        </member>
+        <member name="P:mobemboTestmobile.ViewModels.LoginPageViewModel.LoginCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:mobemboTestmobile.ViewModels.LoginPageViewModel.Login"/>.</summary>
+        </member>
+    </members>
+</doc>

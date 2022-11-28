@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{7D222F0C-EA55-4AD8-9929-4692F6E3F184}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="mobemboTestmobile" expanded="True">
+            <Node name="mobemboTestmobile" expanded="True">
+              <Node name="Controls" expanded="True" />
+              <Node name="Handlers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Platforms" expanded="True">
+                <Node name="iOS" expanded="True" />
+              </Node>
+              <Node name="Views" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.0.0.0" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_5_-_api_28" />
+  <MonoDevelop.Ide.ItemProperties.mobemboTestmobile PreferredExecutionTarget="Android.pixel_5_-_api_28" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
